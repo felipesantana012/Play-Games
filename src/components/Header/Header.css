@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  align-items: center;
+}
+
+header .header__logo img {
+  width: 70px;
+}
+
+header .header__lista-links {
+  display: flex;
+  gap: 80px;
+}
+
+header .header__lista-links li a {
+  text-decoration: none;
+  color: var(--cor-branca-700);
+  transition: linear 0.4s;
+}
+
+header .header__lista-links li a:hover {
+  color: var(--cor-branca-500);
+}
+
+header .header__lista-links li a:active {
+  color: var(--cor-branca-500);
+  opacity: 0.7;
+}
+
+header .header__lista-links li {
+  transition: linear 0.3s;
+}
+
+header .header__lista-links li:hover {
+  transform: scale(1.2);
+}

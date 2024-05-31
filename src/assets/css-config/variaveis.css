@@ -1,0 +1,17 @@
+:root {
+  --cor-transparente: transparent;
+  --cor-box-shadow: 2px 2px 10px 2px rgb(0, 0, 0, 0.2);
+
+  --cor-preto-700: #1e1e1e;
+  --cor-preto-500: #2f2f3b;
+
+  --cor-branca-700: #ffffff;
+  --cor-branca-500: #c0c0cc;
+
+  --cor-laranja-700: #cf3302;
+  --cor-laranja-500: #f55827;
+
+  /* Tipos de fonte */
+  --fonte-primaria: "Roboto Flex", sans-serif;
+  --fonte-secundaria: "Poppins", sans-serif;
+}
