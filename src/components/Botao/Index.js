@@ -4,7 +4,7 @@ const Botao = (props) => {
   return (
     <>
       <button
-        className="btn-principal">
+        className="btn">
         {props.children}
       </button>
     </>

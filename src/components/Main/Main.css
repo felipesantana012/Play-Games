@@ -1,0 +1,92 @@
+.main {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0) 70%,
+      rgba(255, 255, 255, 0.13)
+    ),
+    url(../../assets/imgs/img-grandes/img-clara-homem-aranha-principal.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  gap: 52px;
+  background-color: var(--cor-transparente);
+  backdrop-filter: blur(3px);
+  padding: 10px;
+  margin-left: 70px;
+}
+
+.main__content__texto {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.main__content__text__titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.main__content__text__titulo h1 {
+  font-family: var(--fonte-secundaria);
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.main__content__text__titulo p {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--cor-branca-500);
+  text-align: justify;
+}
+
+.main__content__text__preco {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.main__content__text__preco h2 {
+  font-family: var(--fonte-secundaria);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.main__content__text__preco-btns {
+  display: flex;
+  gap: 22px;
+}
+
+.main__content__text__preco-btns-btn-coracao {
+  background-color: var(--cor-transparente);
+  border-radius: 50%;
+  border: 1px solid var(--cor-preto-500);
+  cursor: pointer;
+  width: 56px;
+  height: 56px;
+}
+
+
+
+.main__conent__description {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.main__conent__description li {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}

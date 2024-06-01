@@ -1,4 +1,4 @@
-.btn-principal {
+.btn {
   background-color: var(--cor-transparente);
   padding: 10px 16px;
   color: var(--cor-branca-700);
@@ -8,12 +8,12 @@
   transition: linear 0.3s;
 }
 
-.btn-principal:hover {
+.btn:hover {
   transform: scale(1.09);
   background-color: var(--cor-branca-700);
   color: var(--cor-preto-500);
 }
 
-.btn-principal:active {
+.btn:active {
   opacity: 0.7;
 }

@@ -1,0 +1,10 @@
+.btn-principal {
+  background-color: var(--cor-laranja-700);
+  border: none;
+  min-width: 200px;
+}
+
+.btn-principal:hover {
+  background-color: var(--cor-laranja-500);
+  color: var(--cor-branco-700);
+}
