@@ -2,6 +2,16 @@
   --cor-transparente: transparent;
   --cor-box-shadow: 2px 2px 10px 2px rgb(0, 0, 0, 0.2);
 
+  --cor-gradiente-principal: linear-gradient(
+    325deg,
+    #1f1625 0,
+    #0c0a0f 25%,
+    #0b070f 50%,
+    #07030c 75%,
+    #06030a 100%
+  );
+
+  --cor-preto-900: #020202;
   --cor-preto-700: #1e1e1e;
   --cor-preto-500: #2f2f3b;
 
@@ -14,4 +24,5 @@
   /* Tipos de fonte */
   --fonte-primaria: "Roboto Flex", sans-serif;
   --fonte-secundaria: "Mohave", sans-serif;
+  --fonte-terceraria: "Permanent Marker", cursive;
 }

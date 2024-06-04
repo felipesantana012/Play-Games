@@ -1,0 +1,59 @@
+.container-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background: var(--cor-preto-900);
+  filter: brightness(0.8);
+  height: 100vh;
+  padding-top: 16px;
+}
+
+.container-secundario-titulo {
+  font-family: var(--fonte-terceraria);
+  color: transparent;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 16px;
+  background-image: url("../../assets/imgs/img-grandes/img-clara-homem-aranha-principal.png");
+  background-position: center;
+  background-size: contain;
+  background-clip: text;
+  filter: brightness(2);
+}
+
+.container-secundario-imgs {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.container-secundario-imgs::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.959) 10%,
+    rgba(49, 49, 49, 0.082) 50%,
+    rgba(0, 0, 0, 0.952) 100%
+  ); /* Ajuste a cor e a opacidade conforme necessário */
+  z-index: 1;
+}
+
+.img-slide {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  filter: brightness(1.3);
+  transition: opacity 1200ms;
+}
+
+.selecionada {
+  opacity: 1;
+}
+

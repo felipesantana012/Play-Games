@@ -1,0 +1,21 @@
+.nav-mobile {
+  background: var(--cor-transparente);
+}
+
+.nav-mobile__icone-buguer {
+  display: none;
+}
+
+.nav-mobile__icone-buguer i {
+  font-size: 26px;
+  cursor: pointer;
+  color: var(--cor-branca-700);
+}
+
+.nav-mobile__icone-buguer i:active {
+  color: var(--cor-branca-500);
+}
+
+.nav-mobile__links {
+  display: none;
+}

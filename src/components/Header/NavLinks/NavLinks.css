@@ -1,0 +1,30 @@
+.nav {
+  background: var(--cor-transparente);
+}
+.nav-links {
+  display: flex;
+  gap: 80px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: var(--cor-branca-700);
+  transition: linear 0.4s;
+}
+
+.nav-links li a:hover {
+  color: var(--cor-branca-500);
+}
+
+.nav-links li a:active {
+  color: var(--cor-branca-500);
+  opacity: 0.7;
+}
+
+.nav-links li {
+  transition: linear 0.3s;
+}
+
+.nav-links li:hover {
+  transform: scale(1.2);
+}

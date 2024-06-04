@@ -1,7 +1,7 @@
 .container {
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  background-color: var(--cor-preto-700);
+  background: var(--cor-gradiente-principal);
   color: var(--cor-branca-700);
   font-family: var(--fonte-primaria);
 }

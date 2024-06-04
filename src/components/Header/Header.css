@@ -3,36 +3,30 @@ header {
   justify-content: space-around;
   padding: 8px 0;
   align-items: center;
+  background-image: var(--cor-transparente);
 }
 
-header .header__logo img {
-  width: 70px;
+@media screen and (max-width: 900px) {
+  .nav .nav-links {
+    gap: 40px;
+  }
 }
 
-header .header__lista-links {
-  display: flex;
-  gap: 80px;
-}
+@media screen and (max-width: 700px) {
+  header {
+    justify-content: space-between;
+    padding: 0 32px;
+  }
 
-header .header__lista-links li a {
-  text-decoration: none;
-  color: var(--cor-branca-700);
-  transition: linear 0.4s;
-}
+  .nav .nav-links {
+    display: none;
+  }
 
-header .header__lista-links li a:hover {
-  color: var(--cor-branca-500);
-}
+  .btn {
+    display: none;
+  }
 
-header .header__lista-links li a:active {
-  color: var(--cor-branca-500);
-  opacity: 0.7;
-}
-
-header .header__lista-links li {
-  transition: linear 0.3s;
-}
-
-header .header__lista-links li:hover {
-  transform: scale(1.2);
+  .nav-mobile .nav-mobile__icone-buguer {
+    display: block;
+  }
 }
