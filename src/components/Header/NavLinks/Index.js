@@ -16,7 +16,7 @@ const NavLinks = () => {
             <a href="#">Sobre</a>
           </li>
           <li>
-            <a href="#">Login</a>
+            <a href="#">Ajuda</a>
           </li>
         </ul>
         <NavMobile />

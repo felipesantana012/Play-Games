@@ -1,11 +1,9 @@
 import "./ContainerPrincipal.css";
-import imgCoracao from "../../assets/imgs/img-logos-pequenos/coracao.png";
 import caledario from "../../assets/imgs/img-logos-pequenos/calendario.png";
 import ponto from "../../assets/imgs/img-logos-pequenos/ponto.png";
 import controles from "../../assets/imgs/img-logos-pequenos/controles.png";
 import lampada from "../../assets/imgs/img-logos-pequenos/lampada.png";
 import BotaoPrincipal from "../BotaoPrincipal/Index";
-import BotaoIcon from "../BotaoIcone/Index";
 
 const ContainerPrincipal = ({
   id,
@@ -47,30 +45,41 @@ const ContainerPrincipal = ({
           <div className="container-principal__content__text__preco">
             <h2>RS$ {preco.toFixed(2)}</h2>
             <div className="container-principal__content__text__preco-btns">
-              <BotaoPrincipal>Adicionar Carrinho</BotaoPrincipal>
-              <BotaoIcon>{imgCoracao}</BotaoIcon>
+              <BotaoPrincipal text={"Adicionar Carrinho"} />
             </div>
           </div>
         </div>
 
         <ul className="container-principal__conent__description">
           <li>
-            <img src={caledario} alt="Img calendario"></img>
-            <p>Lançado {dataLancamento}</p>
-            <img src={ponto} alt="img ponto"></img>
-            <p> Versão para {vercao}</p>
+            <div className="description-esquerdo">
+              <img src={caledario} alt="Img calendario"></img>
+              <p>Lançado {dataLancamento}</p>
+            </div>
+
+            <div className="description-direito">
+              <img src={ponto} alt="img ponto"></img>
+              <p> Versão para {vercao}</p>
+            </div>
           </li>
 
           <li>
-            <img src={controles} alt="Img Controle"></img>
-            <p>{quantidadeJogadores} jogadores</p>
-            <img src={ponto} alt="img ponto"></img>
-            <p>{estiloJogo} </p>
+            <div className="description-esquerdo">
+              <img src={controles} alt="Img Controle"></img>
+              <p>{quantidadeJogadores} jogadores</p>
+            </div>
+
+            <div className="description-direito">
+              <img src={ponto} alt="img ponto"></img>
+              <p>{estiloJogo} </p>
+            </div>
           </li>
 
           <li>
+          <div className="description-esquerdo">
             <img src={lampada} alt="Img Controle"></img>
             <p>{compatibilidade}</p>
+            </div>
           </li>
         </ul>
       </div>

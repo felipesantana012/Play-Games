@@ -1,6 +1,6 @@
 import "./Footer.css";
 import imgRodape from "../../assets/imgs/img-grandes/img-rodape.png";
-import logo from "../../assets/imgs/img-header/logo_controle_gamer.png";
+
 
 const Footer = () => {
   return (
@@ -26,20 +26,20 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fa-brands fa-whatsapp"></i>
+            <i className="fa-brands fa-whatsapp"></i>
           </a>
           <a
             href="https://github.com/felipesantana012"
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
           <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-            <i class="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-instagram"></i>
           </a>
           <a href="https://www.linkedin.com/in/felipesantana012/" target="_blank" rel="noreferrer">
-            <i class="fa-brands fa-linkedin-in"></i>
+            <i className="fa-brands fa-linkedin-in"></i>
           </a>
         </div>
       </div>

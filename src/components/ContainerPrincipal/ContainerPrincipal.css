@@ -15,6 +15,7 @@
   backdrop-filter: blur(3px);
   padding: 10px;
   margin-left: 70px;
+  max-height: 90%;
 }
 
 .container-principal__content__texto {
@@ -59,15 +60,6 @@
   gap: 22px;
 }
 
-.container-principal__content__text__preco-btns-btn-coracao {
-  background-color: var(--cor-transparente);
-  border-radius: 50%;
-  border: 1px solid var(--cor-preto-500);
-  cursor: pointer;
-  width: 56px;
-  height: 56px;
-}
-
 .container-principal__conent__description {
   display: flex;
   flex-direction: column;
@@ -78,4 +70,39 @@
   display: flex;
   gap: 16px;
   align-items: center;
+}
+
+.description-esquerdo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.description-direito {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .container-principal__content {
+    padding: 0;
+    width: 60%;
+    margin-left: 20px;
+  }
+
+  .container-principal__content__text__titulo h1 {
+    font-size: 36px;
+    white-space: nowrap;
+  }
+
+  .container-principal__content__text__titulo p {
+    font-size: 16px;
+  }
+
+  .container-principal__conent__description li {
+    flex-direction: column;
+    align-items: flex-start;
+    white-space: nowrap;
+  }
 }

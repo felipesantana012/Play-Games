@@ -15,9 +15,7 @@
   font-size: 50px;
   text-align: center;
   padding-bottom: 16px;
-  background-image: url("../../assets/imgs/img-grandes/img-clara-homem-aranha-principal.png");
-  background-position: center;
-  background-size: contain;
+  background-color: var(--cor-branca-500);
   background-clip: text;
   filter: brightness(2);
 }
@@ -57,3 +55,8 @@
   opacity: 1;
 }
 
+@media screen and (max-width: 900px) {
+  .container-secundario-titulo {
+    font-size: 28px;
+  }
+}

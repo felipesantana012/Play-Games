@@ -22,11 +22,20 @@ header {
     display: none;
   }
 
-  .btn {
+  header .btn {
     display: none;
   }
-
-  .nav-mobile .nav-mobile__icone-buguer {
-    display: block;
-  }
 }
+
+/* 
+//--------------------------INICIO MENU MOBILE--------------------------
+const btnMenuBurguer = document.querySelector('.icone')
+const menuBurguer = document.querySelector('.menu-burguer-links')
+
+btnMenuBurguer.addEventListener('click', () =>{
+    menuBurguer.classList.toggle('abrir-menu-burguer')
+    const iconeMenu = menuBurguer.classList.contains('abrir-menu-burguer')
+
+    btnMenuBurguer.classList = iconeMenu ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+})
+//--------------------------FIM MENU MOBILE-------------------------- */

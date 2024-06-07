@@ -1,10 +1,23 @@
 .btn-principal {
   background-color: var(--cor-laranja-700);
   border: none;
-  min-width: 200px;
+  width: 200px;
+  font-size: 18px;
+  padding: 10px 26px;
+  color: var(--cor-branca-700);
+  border-radius: 32px;
+  cursor: pointer;
+  transition: linear 0.3s;
+  font-family: var(--fonte-secundaria);
+  font-weight: 500;
 }
 
 .btn-principal:hover {
+  transform: scale(1.09);
   background-color: var(--cor-laranja-500);
   color: var(--cor-branco-700);
+}
+
+.btn-principal:active {
+  opacity: 0.7;
 }

@@ -59,3 +59,29 @@
   color: var(--cor-branca-700);
   transform: scale(1.3);
 }
+
+@media screen and (max-width: 900px) {
+  .footer-conteudo {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .footer-texto {
+    width: 100%;
+  }
+
+  .footer-texto p {
+    font-size: 12px;
+  }
+
+  .footer-links a {
+    font-size: 18px;
+  }
+
+  .footer-links {
+    text-align: right;
+    align-items: flex-end;
+    justify-content: right;
+  }
+}

@@ -1,15 +1,11 @@
 import "./BotaoPrincipal.css";
 
-const BotaoPrincipal = (props) => {
-
-    return(
-        <>
-        <button
-          className="btn btn-principal">
-          {props.children}
-        </button>
-      </>
-    )
-}
+const BotaoPrincipal = ({text}) => {
+  return (
+    <>
+      <button className="btn-principal">{text}</button>
+    </>
+  );
+};
 
 export default BotaoPrincipal;

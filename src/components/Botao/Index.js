@@ -1,13 +1,10 @@
 import "./Botao.css";
 
-const Botao = (props) => {
+const Botao = ({ text }) => {
   return (
-    <>
-      <button
-        className="btn">
-        {props.children}
-      </button>
-    </>
+    <div className="btn">
+      <button className="btn-transparente-header">{text}</button>
+    </div>
   );
 };
 
