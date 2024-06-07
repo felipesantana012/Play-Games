@@ -58,12 +58,12 @@ const ContainerSecundario = () => {
           className="img-slide"
         ></img>
         <img
-          src="https://i.pinimg.com/736x/fc/da/d1/fcdad1cecd5412b164fa4e94c13b018e.jpg"
+          src="https://i.pinimg.com/564x/56/27/25/5627254daea1bbc71360b68e25196227.jpg"
           alt=""
           className="img-slide"
         ></img>
-        <img
-          src="https://i.pinimg.com/564x/fe/af/c6/feafc6d42d03b2654e2b28cddede455c.jpg"
+         <img
+          src="https://i.pinimg.com/564x/a7/40/9a/a7409a2ed0cf5ed2dc0bbb7b6140f840.jpg"
           alt=""
           className="img-slide"
         ></img>
