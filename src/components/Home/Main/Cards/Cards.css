@@ -1,0 +1,13 @@
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-cards-item {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 500px;
+}

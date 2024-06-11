@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import NavMobile from "../NavMobile/Index";
 import "./NavLinks.css";
 
@@ -7,16 +8,16 @@ const NavLinks = () => {
       <div className="nav">
         <ul className="nav-links">
           <li>
-            <a href="#">Home</a>
+          <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">Contato</a>
+          <Link to="#">Contato</Link>
           </li>
           <li>
-            <a href="#">Sobre</a>
+          <Link to="#">Sobre</Link>
           </li>
           <li>
-            <a href="#">Ajuda</a>
+          <Link to="#">Ajuda</Link>
           </li>
         </ul>
         <NavMobile />

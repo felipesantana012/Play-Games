@@ -1,0 +1,14 @@
+.botao-card {
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
+  color: var(--cor-branca-700);
+  background-color: var(--cor-laranja-500);
+  transition: linear 0.3s;
+}
+
+.botao-card:hover {
+  color: var(--cor-branca-500);
+  background-color: var(--cor-laranja-700);
+}

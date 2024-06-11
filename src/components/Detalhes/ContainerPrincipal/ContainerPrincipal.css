@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   background-image: var(--cor-transparente);
+  background-size: cover;
 }
 
 .container-principal__content {

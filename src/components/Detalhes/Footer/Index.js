@@ -1,5 +1,5 @@
 import "./Footer.css";
-import imgRodape from "../../assets/imgs/img-grandes/img-rodape.png";
+import imgRodape from "../../../assets/imgs/img-grandes/img-rodape.png";
 
 
 const Footer = () => {

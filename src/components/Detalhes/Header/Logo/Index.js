@@ -1,5 +1,5 @@
 import "./Logo.css";
-import logo from "../../../assets/imgs/img-header/logo_controle_gamer.png";
+import logo from "../../../../assets/imgs/img-header/logo_controle_gamer.png";
 
 const Logo = () => {
   return (

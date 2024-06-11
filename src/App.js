@@ -1,18 +1,17 @@
-
-import './App.css';
-import Footer from './components/Footer/Index';
-import Header from './components/Header/Index';
-import Main from './components/Main/Index';
-
+import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Detalhes from "./components/Detalhes/Index";
+import Home from "./components/Home/Index";
 
 function App() {
   return (
-   <div className='container'>
-    <Header/>
-    <Main/>
-    <Footer/>
-   </div>
+    <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/game/:id" element={<Detalhes />} />
+    </Routes>
+  </Router>
   );
 }
-
 export default App;

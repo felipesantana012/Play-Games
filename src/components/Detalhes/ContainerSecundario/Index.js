@@ -1,7 +1,7 @@
 import "./ContainerSecundario.css";
 import React, { useEffect, useState } from "react";
 
-const ContainerSecundario = () => {
+const ContainerSecundario = ({pacoteImagensJogo}) => {
   const [imagens, setImagens] = useState([]);
 
   useEffect(() => {
@@ -43,27 +43,31 @@ const ContainerSecundario = () => {
       <h2 className="container-secundario-titulo">Imagens Reais do Game</h2>
       <div className="container-secundario-imgs">
         <img
-          src="https://i.pinimg.com/564x/ca/dc/92/cadc92cafb53cad4209b3f4721f6f1c7.jpg"
+          src={pacoteImagensJogo[0]}
           alt=""
           className="img-slide selecionada"
         ></img>
+
         <img
-          src="https://i.pinimg.com/564x/55/34/66/5534661372dee30cfd344cd3bc92d6c2.jpg"
+          src={pacoteImagensJogo[1]}
           alt=""
           className="img-slide"
         ></img>
+
         <img
-          src="https://i.pinimg.com/564x/36/93/dc/3693dcf79a136cf3c10efd1dad4d83cb.jpg"
+          src={pacoteImagensJogo[2]}
           alt=""
           className="img-slide"
         ></img>
+
         <img
-          src="https://i.pinimg.com/564x/56/27/25/5627254daea1bbc71360b68e25196227.jpg"
+          src={pacoteImagensJogo[3]}
           alt=""
           className="img-slide"
         ></img>
-         <img
-          src="https://i.pinimg.com/564x/a7/40/9a/a7409a2ed0cf5ed2dc0bbb7b6140f840.jpg"
+
+        <img
+          src={pacoteImagensJogo[4]}
           alt=""
           className="img-slide"
         ></img>

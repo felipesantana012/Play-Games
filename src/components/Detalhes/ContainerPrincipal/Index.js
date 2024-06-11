@@ -1,8 +1,8 @@
 import "./ContainerPrincipal.css";
-import caledario from "../../assets/imgs/img-logos-pequenos/calendario.png";
-import ponto from "../../assets/imgs/img-logos-pequenos/ponto.png";
-import controles from "../../assets/imgs/img-logos-pequenos/controles.png";
-import lampada from "../../assets/imgs/img-logos-pequenos/lampada.png";
+import caledario from "../../../assets/imgs/img-logos-pequenos/calendario.png";
+import ponto from "../../../assets/imgs/img-logos-pequenos/ponto.png";
+import controles from "../../../assets/imgs/img-logos-pequenos/controles.png";
+import lampada from "../../../assets/imgs/img-logos-pequenos/lampada.png";
 import BotaoPrincipal from "../BotaoPrincipal/Index";
 
 const ContainerPrincipal = ({
@@ -32,8 +32,8 @@ const ContainerPrincipal = ({
       style={{
         background: ImgStyle.backgroundImg,
         backgroundRepeat: `no-repeat`,
-        backgroundPosition: `center center`,
-        backgroundSize: `cover`,
+        backgroundPosition: `top center`,
+        backgroundSize: `100% 100%`,
       }}
     >
       <div className="container-principal__content" key={id}>
@@ -76,9 +76,9 @@ const ContainerPrincipal = ({
           </li>
 
           <li>
-          <div className="description-esquerdo">
-            <img src={lampada} alt="Img Controle"></img>
-            <p>{compatibilidade}</p>
+            <div className="description-esquerdo">
+              <img src={lampada} alt="Img Controle"></img>
+              <p>{compatibilidade}</p>
             </div>
           </li>
         </ul>

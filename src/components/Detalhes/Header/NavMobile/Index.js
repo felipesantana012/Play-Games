@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BotaoPrincipal from "../../BotaoPrincipal/Index";
 import "./NavMobile.css";
 import React, { useState } from "react";
@@ -17,21 +18,19 @@ const NavMobile = () => {
       <div className={`menu ${isOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#about">Contato</a>
+            <Link to="#">Contato</Link>
           </li>
           <li>
-            <a href="#services">Sobre</a>
+            <Link to="#">Sobre</Link>
           </li>
           <li>
-            <a href="#contact">Ajuda</a>
+            <Link to="#">Ajuda</Link>
           </li>
           <li>
-            <a href="#/">
-              <BotaoPrincipal text={"Carrinho"}/>
-            </a>
+          <Link to="#"><BotaoPrincipal text={"Carrinho"} /></Link>       
           </li>
         </ul>
       </div>

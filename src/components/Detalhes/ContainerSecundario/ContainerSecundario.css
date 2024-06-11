@@ -48,7 +48,7 @@
   height: 100%;
   position: absolute;
   filter: brightness(1.3);
-  transition: opacity 1200ms;
+  transition: opacity 1500ms;
 }
 
 .selecionada {
